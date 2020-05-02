@@ -1,11 +1,12 @@
 import React from 'react';
-import styles from './styles.css';
+import styles from './style.module.css';
 import Field from '../Field';
 import { DELAY, MAX_HEIGHT, MAX_WIDTH } from '../../consts/sizes';
 import { gameStateUrl, userActionUrl } from '../../consts/urls';
 import errorHandler from "../../utils/errorHandler";
 import Instruction from "../Instruction";
 
+import './base.css'
 
 export default class App extends React.Component {
     constructor() {
