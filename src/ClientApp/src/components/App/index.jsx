@@ -73,15 +73,3 @@ export default class App extends React.Component {
             })
     }
 }
-
-function getPeople(count) {
-    return Array.from({ length: count }, (_, i) => ({
-        id: i,
-        homeId: i,
-        position: {
-            x: Math.round(Math.random() * MAX_WIDTH),
-            y: Math.round(Math.random() * MAX_HEIGHT),
-        },
-        isIll: false,
-    }))
-}

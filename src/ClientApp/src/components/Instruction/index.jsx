@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './styles.module.css'
-import { MAX_HEIGHT, MAX_WIDTH } from "../../consts/sizes";
 
 
 export default function Instruction({ onClose }) {
